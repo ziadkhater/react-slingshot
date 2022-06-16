@@ -28,7 +28,7 @@ jobs:
       - run: |
           npm audit
 
-workflow:
+workflows:
   default:
     - build
     - test:
